@@ -37,7 +37,7 @@ namespace TesteConexaoBancoDeDadosSQLServer
                             }
                         }
 
-                        Console.WriteLine($"O tempo de resposta da consulta no banco de dados foi de {tempo.Elapsed.TotalSeconds}");
+                        Console.WriteLine($"O tempo de resposta da consulta no banco de dados foi de {tempo.Elapsed.TotalSeconds} segundos");
                     }
                 }
             }
