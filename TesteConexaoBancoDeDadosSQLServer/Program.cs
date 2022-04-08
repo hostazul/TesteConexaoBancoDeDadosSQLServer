@@ -32,7 +32,7 @@ namespace TesteConexaoBancoDeDadosSQLServer
                         {
                             while (reader.Read())
                             {
-                                Console.WriteLine($"A foi executa com sucesso e retornou o valor de {reader.GetValue(0)}");
+                                Console.WriteLine($"A consulta foi executada com sucesso e retornou o valor de {reader.GetValue(0)}");
                                 tempo.Stop();
                             }
                         }
